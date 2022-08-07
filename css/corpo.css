@@ -1,0 +1,49 @@
+
+
+
+.data{
+	/* CAMADA DA DATA E HORA  
+	   */
+	background: #2E8B57; position: absolute; right: 0px; bottom: -5px;
+	width: 250px; height: 30px; border-radius: 3px; 
+}
+
+.data img{
+	position: absolute; left: 20px; top: 7px;
+}
+
+.sair {
+	
+	position: absolute; left: 190px; top: 1px ;
+	
+	}
+
+.data p{
+	/* LETRA DA DATA E HORA 
+	   */
+	color: #fff; position: absolute; left: 45px; top: 7px; font-size: 13px;
+}
+
+.data:after{
+	position: absolute;
+	bottom: 0px; left: -10px;
+
+	content: "";
+	display: inline-block;
+	border-top: 5px transparent solid;
+	border-left: 5px transparent solid;
+	border-right: 10px #2E8B57 solid;
+	border-bottom: 5px transparent solid;
+}
+.data:before{
+	position: absolute;
+	bottom: 0px; left: -18px;
+
+	content: "";
+	background: #2E8B57;
+	width: 50px;
+	height: 5px;
+}
+
+
+
